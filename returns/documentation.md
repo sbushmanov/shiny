@@ -34,7 +34,11 @@ Prof. Shiller's [website](http://www.econ.yale.edu/~shiller/data.htm)
 #### 5. Apart from downloading data from Prof. Shiller's website and plotting it, what does the app do?
 
 - The App calculates real prices and returns, subsets for the investment horizon of interest,
-and ensures interactivity.
+and ensures interactivity. Specifically:  
+  - `global.R` script: downloads and preprocesses data by calculating all returns. Most of the calcualtions are made here.   
+  - `ui.R` script: organizes user interface and obtains interactive user inputs from web interface  
+  - `server.R` script: obtains inputs from `ui.R` and preprocessed data from `global.R`, calculates interactive outputs and passes them back to `ui.R`.
+  
 
 #### 6. How "returns" are defined?
 

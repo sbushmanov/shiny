@@ -30,7 +30,7 @@ shinyUI(navbarPage("Menu",
                             verbatimTextOutput("adjust"),
                             plotOutput("chart")         
                             ))),
-                   tabPanel("Documentation",
+                   tabPanel("Stocks vs Bonds Documentation",
                             fluidRow(column(6,
                                             includeMarkdown("documentation.md")
                             )
