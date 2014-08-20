@@ -1,8 +1,10 @@
 vizualizeReturns
 =====
-
 ### R/Shiny app for vizualization of historical stock and bond returns
-Coursera Data Products Project
+
+Coursera Data Products Project.  
+
+Extensive documentaion on how to use the application is embedded to the application (menu tab titled "Stocks vs Bonds Documentation")
 
 To run the shiny application found at http://sbushmanov.shinyapps.io/returns/ 
 you need three files, found in `"/returns"` folder :
