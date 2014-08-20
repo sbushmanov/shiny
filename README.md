@@ -1,4 +1,4 @@
-vizualizeRetruns
+vizualizeReturns
 =====
 
 ### R/Shiny app for vizualization of historical stock and bond returns
