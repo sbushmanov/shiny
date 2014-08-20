@@ -1,6 +1,7 @@
-Shiny
+vizualizeRetruns
 =====
 
+### R/Shiny app for vizualization of historical stock and bond returns
 Coursera Data Products Project
 
 To run the shiny application found at http://sbushmanov.shinyapps.io/returns/ 
